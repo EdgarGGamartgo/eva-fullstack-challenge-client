@@ -6,4 +6,4 @@ eva-fullstack-challenge-client
 
 3. Run "npx styleguidist server" to check component documentation.
 
-
+4. Run "npm test" to run tests for Login functionality.

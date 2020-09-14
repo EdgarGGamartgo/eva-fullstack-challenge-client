@@ -63,21 +63,21 @@ class Login extends Component {
 
         if(success && !navigate) {
             return (
-                <form onSubmit={this.submitHandler}>
+                <form onSubmit={this.submitHandler} data-testid="form">
 
                     <h3>{t('welcome.login')}</h3>
     
                     <div className="form-group">
                         <label>{t('welcome.email')}</label>
-                        <input type="text" name="userId" value={userId} onChange={this.changeHandler} className="form-control"  />
+                        <input data-testid="email-input" type="text" name="userId" value={userId} onChange={this.changeHandler} className="form-control"  />
                     </div>
     
                     <div className="form-group">
                         <label>{t('welcome.pass')}</label>
-                        <input type="password" name="password" value={password} onChange={this.changeHandler} className="form-control" />
+                        <input data-testid="pass-input" type="password" name="password" value={password} onChange={this.changeHandler} className="form-control" />
                     </div>
     
-                    <button type="submit" className="btn btn-light btn-block">{t('welcome.submit')}</button>
+                    <button data-testid="search-button" type="submit" className="btn btn-light btn-block">{t('welcome.submit')}</button>
                 </form>
             );
         } else if (!success && !navigate){
