@@ -1,0 +1,27 @@
+{
+    "welcome": {
+        "title": "Bienvenido a",
+        "enterprise": "Eva",
+        "login": "Entrar",
+        "signup": "Registrarse",
+        "userid": "Id Usuario",
+        "email": "Email",
+        "pass": "Contraseña",
+        "success": "Usuario registrado exitosamente!",
+        "submit": "Enviar",
+        "error": "Credenciales incorrectas, intenta de nuevo por favor.",
+        "logout": "Salir",
+        "age": "Tu edad es",
+        "youremail": "Tu email es",
+        "welcome": "Bienvenido"
+
+
+
+
+
+
+
+
+
+    }
+}
